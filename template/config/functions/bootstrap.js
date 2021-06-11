@@ -94,7 +94,7 @@ async function importPages() {
   const getPageCover = (slug) => {
     switch (slug) {
       case "":
-        return getFileData("undraw-content-team.png");
+        return getFileData("desk.png");
       default:
         return null;
     }
@@ -158,7 +158,7 @@ async function importPages() {
           ] = getFileData("logo.png");
           files[
             `contentSections.${index}.testimonials.${testimonialIndex}.picture`
-          ] = getFileData("user.png");
+          ] = getFileData("Marilyn.jpg");
         });
       }
     });
@@ -171,7 +171,7 @@ async function importGlobal() {
   // Add images
   const files = {
     favicon: getFileData("favicon.png"),
-    "metadata.shareImage": getFileData("undraw-content-team.png"),
+    "metadata.shareImage": getFileData("desk.png"),
     "navbar.logo": getFileData("logo.png"),
     "footer.logo": getFileData("logo.png"),
   };
