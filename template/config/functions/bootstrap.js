@@ -98,7 +98,7 @@ async function importPages(pages) {
   const getPageCover = (slug) => {
     switch (slug) {
       case "":
-        return getFileData("desk.png");
+        return getFileData("desk.jpg");
       default:
         return null;
     }
@@ -175,7 +175,7 @@ async function importGlobal() {
   // Add images
   const files = {
     favicon: getFileData("favicon.png"),
-    "metadata.shareImage": getFileData("desk.png"),
+    "metadata.shareImage": getFileData("desk.jpg"),
     "navbar.logo": getFileData("logo.png"),
     "footer.logo": getFileData("logo.png"),
   };
