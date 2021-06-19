@@ -46,7 +46,9 @@
         "sections.large-video",
         "sections.rich-text",
         "sections.pricing",
-        "sections.lead-form"
+        "sections.lead-form",
+        "sections.video-landing-page",
+        "sections.cta"
       ],
       "pluginOptions": {
         "i18n": {
