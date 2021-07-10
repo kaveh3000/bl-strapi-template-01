@@ -15,6 +15,23 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "smallTextWithLink": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
     }
   }
 }
